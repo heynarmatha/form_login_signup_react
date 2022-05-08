@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap");
+.form {
+  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 10px;
+}
+.login {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 10px 20px 25px rgba(0, 0, 0, 0.3);
+  max-width: 100%;
+  width: 400px;
+  padding: 2rem;
+}
+.forgot {
+  text-align: right;
+  padding-top: 13px;
+  color: rgb(40, 40, 40);
+  font-weight: 500;
+  cursor: pointer;
+}
+.heading {
+  text-align: center;
+  padding-bottom: 2rem;
+  color: rgb(40, 40, 40);
+}
+.title {
+  font-size: 18px;
+  margin-top: 10px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  color: rgb(40, 40, 40);
+  font-weight: 500;
+}
+input {
+  width: 100%;
+  padding: 10px;
+}
+
+button {
+  width: 100%;
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+  cursor: pointer;
+  font-size: 16px;
+}
+.sign-up {
+  text-align: center;
+  color: gray;
+  font-weight: 400;
+  font-size: 13px;
+  padding-top: 50px;
+}
+.signing {
+  margin-top: 3rem;
+}
+.btn-sign-up {
+  text-align: center;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 19px;
+  color: gray;
+  font-weight: 600;
+  outline: none;
+}
+.socialMedia {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.social-media-icon {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.facebook-icon {
+  background-color: rgb(65, 89, 148);
+}
+.twitter {
+  background-color: rgb(73, 160, 233);
+}
+.google {
+  background-color: rgb(220, 76, 61);
+}
+input {
+  border: none;
+  position: relative;
+  color: rgb(40, 40, 40);
+  box-shadow: rgba(0, 0, 0, 0.075) 0px 2.4px 0px 0;
+  outline: none;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+}
+input[placeholder] {
+  padding-left: 35px;
+  font-size: 15px;
+}
+.user {
+  background: url("./icons/user-solid-24.png") left no-repeat;
+}
+.password-icon {
+  background: url("./icons/lock-regular-24.png") left no-repeat;
+}
+.email-icon {
+  background: url("./icons/envelope-regular-24.png") left no-repeat;
+}
